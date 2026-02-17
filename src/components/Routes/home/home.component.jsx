@@ -6,6 +6,7 @@ import sneakers from "../../../assets/sneakers.png";
 import womens from "../../../assets/womens.png";
 import mens from "../../../assets/men.png";
 
+
 const Home = () => {
     const categories = [
         {
@@ -34,12 +35,6 @@ const Home = () => {
             imageUrl: mens,
         },
     ];
-
-
-
-
-
-
     return <Directory categories={categories} />
 
 }
